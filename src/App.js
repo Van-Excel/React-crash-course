@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import FirstComponent from './FirstComponent.js';
+import { FirstComponent } from './FirstComponent.js';
 export default function App() {
   return (
     <div>
