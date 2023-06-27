@@ -6,6 +6,7 @@ import { State } from './State.js';
 import { Events } from './Events.js';
 import { Parent } from './Parent.js';
 import { Conditional } from './Conditional.js';
+import {Lists} from './Lists.js'
 export default function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ export default function App() {
       <Events />
       <Parent />
       <Conditional />
+      <Lists />
     </div>
   );
 }
