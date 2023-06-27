@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import { FirstComponent } from './FirstComponent.js';
 import {Props} from "./Props.js"
+import {State} from './State.js'
 export default function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ export default function App() {
       <FirstComponent />
       <Props name= 'vanexcel' />
       <Props name= 'Theophilus'><p>This is a child prop</p></Props>
+      <State />
     </div>
   );
 }
